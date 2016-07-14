@@ -1,0 +1,44 @@
+body {
+	background-color: #05075E;
+}
+
+.login-form {
+	padding: 30px;
+}
+
+.login-form h2{
+	color: white;
+}
+
+.input-field label {
+	color: white;	
+}
+
+.input-field input[type="password"],
+.input-field input[type="email"] {
+	border-bottom: 1px solid white;
+	box-shadow: 0 1px 0 0 white;
+}
+
+.input-field input[type="password"]:focus + label,
+.input-field input[type="email"]:focus + label {
+	color: #0D069A;
+}
+
+.input-field input[type="password"]:focus,
+.input-field input[type="email"]:focus {
+	border-bottom: 1px solid #0D069A;
+	box-shadow: 0 1px 0 0 #0D069A;
+}
+
+.input-field .prefix{
+	color: white;
+}
+
+.input-field .prefix.active {
+	color: #0D069A;
+}
+
+.btn {
+	background-color: #1826E5;
+}
